@@ -1,0 +1,8 @@
+[build]
+  publish = "tempestascopper/public"
+  command = "cd tempestascopper && hugo --gc --themesDir ../.."
+  
+[build.environment]
+  HUGO_VERSION = "0.79.0"
+  HUGO_THEME = "main-site"
+  HUGO_BASEURL = "/"
