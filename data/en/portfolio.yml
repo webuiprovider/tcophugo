@@ -5,8 +5,8 @@ portfolio:
   portfolio_item :
     # portfolio item loop
     - name : TOCP image
-      image : images/portfolio/20210302_130827.jpg?nf_resize=fit&w=600&h=450
-      image_webp : images/portfolio/20210302_130827.jpg?nf_resize=fit&w=600&h=450
+      image : images/portfolio/20210302_130827.jpg?nf_resize=fit&w=350&h=263  
+      image_webp : images/portfolio/20210302_130827.jpg?nf_resize=fit&w=350&h=263
       categories : ["design"]
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
       link : "https://themefisher.com"
