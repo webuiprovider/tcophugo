@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://TempestasCopper.com"
+baseURL = ""
 title = "Tempestas Copper"
 theme = "tcop"
 # themesDir = "../.."
