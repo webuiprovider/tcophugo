@@ -1,5 +1,5 @@
 ################################# Default configuration ###################
-baseURL = "https://tempestascopper.com/"
+baseURL = "/"
 title = "Meghna"
 theme = "tcop"
 # themesDir = "/tcop"
