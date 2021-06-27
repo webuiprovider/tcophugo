@@ -1,76 +1,76 @@
 #################################### portfolio ###############################
 portfolio:
   enable : true
-  title : Our Works
+  title : Kelvin Property
   portfolio_item :
     # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-1.jpg
-      image_webp : images/portfolio/portfolio-1.webp
+    - name : Road to Kearny from the Florence-Kelvin Highway
+      image : images/NWC-Zelleweger---View-from-Washb.jpg
+      image_webp : images/2NWC-Zelleweger---View-from-Washb.jpg
       categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://themefisher.com"
-      
-    # portfolio item loop
-    - name : Sound system
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
-      categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      content : Road to Kearny from the Florence-Kelvin Highway looking northeast adjacent to the property.
       link : ""
       
     # portfolio item loop
-    - name : Clock Product
-      image : images/portfolio/portfolio-3.jpg
-      image_webp : images/portfolio/portfolio-3.webp
-      categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Bottol Label
-      image : images/portfolio/portfolio-4.jpg
-      image_webp : images/portfolio/portfolio-4.webp
-      categories : ["photography", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Shopping Bag
-      image : images/portfolio/portfolio-5.jpg
-      image_webp : images/portfolio/portfolio-5.webp
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-6.jpg
-      image_webp : images/portfolio/portfolio-6.webp
-      categories : ["photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
-      
-    # portfolio item loop
-    - name : Business Card
-      image : images/portfolio/portfolio-7.jpg
-      image_webp : images/portfolio/portfolio-7.webp
+    - name : Rare Metals Molybdenum
+      image : images/NWC-Zelleweger---View-from-Washb.jpg
+      image_webp : images/NWC-Zelleweger---View-from-Washb.webp
       categories : ["development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "#"
+      content :     Looking west over the Historic Rare Metals Molybdenum  Mine workings
+      link : ""
       
     # portfolio item loop
-    - name : Stationary Design
-      image : images/portfolio/portfolio-8.jpg
-      image_webp : images/portfolio/portfolio-8.webp
+    - name : Florence-Kelvin Hwy
+      image : images/SWC-Zelleweg-Claim-w-Mine-Shaft-in-Background.jpg
+      image_webp : images/SWC-Zelleweg-Claim-w-Mine-Shaft-in-Background.webp
       categories : ["design", "development"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      content : From Florence-Kelvin Hwy looking north over Section 9  towards Asarco Ray Open Pit Mine 5 miles northeast
       link : "#"
       
     # portfolio item loop
-    - name : Tag Design
-      image : images/portfolio/portfolio-2.jpg
-      image_webp : images/portfolio/portfolio-2.webp
+    - name : Copper Basin Railroad
+      image : images/20210303_121245(1).jpg
+      image_webp : images/20210303_121245(1).webp
+      categories : [ "development"]
+      content : Copper Basin Railroad between Asarco Ray Open Pit Mine and the Hayden Smelter as shown near the northeast of the property.  The Hayden smelter is approximately 15 miles to the east of the property.
+      link : "#"
+      
+    # portfolio item loop
+    - name : Historic Gray Copper Mine
+      image : images/NWC-Zelleweger-Circled.jpg
+      image_webp : images/NWC-Zelleweger-Circled.webp
+      categories : ["design"]
+      content : Historic Gray Copper Mine Shaft on Kelvin Prospect #17.  The mine was explored and developed between 1940’s and 1960’s by the Johnson family.  Oxidized copper ore was extracted, but not commercial.  Further development was ended when several major mining companies began to explore the Kelvin Property. 
+      link : "#"
+      
+    # portfolio item loop
+    - name : Outcrop of Mineralized rock
+      image : images/20210303_104158(1).jpg
+      image_webp : images/20210303_104158(1).webp
+      categories : ["photography"]
+      content : Outcrop of Mineralized rock  near the Zellweger Patented Claim
+      link : "#"
+      
+    # portfolio item loop
+    - name : Rare Metals Molybdenum mine
+      image : images/20210303_090730(2).jpg
+      image_webp : images/20210303_090730(2).webp
+      categories : ["development"]
+      content : Rare Metals Molybdenum mine near J-5 core hole on  Kelvin Prospect #6
+      link : "#"
+      
+    # portfolio item loop
+    - name : J-4 core
+      image : images/20210303_083640(1).jpg
+      image_webp : images/20210303_083640(1).webp
+      categories : ["design", "development"]
+      content : J-4 core drill hole on Kelvin Prospect #11
+      link : "#"
+      
+    # portfolio item loop
+    - name :  Zellweger Patented
+      image : images/20210303_091958.jpg
+      image_webp : images/20210303_091958.webp
       categories : ["design", "photography"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      content : Zellweger Patented Claim mineralized rock
       link : "#"

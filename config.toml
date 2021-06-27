@@ -1,8 +1,8 @@
 ################################# Default configuration ###################
-baseURL = "/"
-title = "Meghna"
+baseURL = "https://TempestasCopper.com"
+title = "Tempestas Copper"
 theme = "tcop"
-# themesDir = "/tcop"
+# themesDir = "../.."
 # post pagination
 paginate = "6"
 # post excerpt
@@ -10,56 +10,37 @@ summaryLength = "15"
 # disqus short name
 disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
-disableLanguages = []
+disableLanguages = [true]
 
 
+############################# Plugins ##########################
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
 
-
-[params]
-    logo = "images/logo.png?nf_resize=fit&w=100&h=200"
-    themeStyle                   = "light"                 # Choose "light" or "dark"
-    favicon                      = "/img/fav.ico"          # Path to favicon file
-    showRSSButton                = false                   # Show rss button in navigation
-    fadeIn                       = true                    # Turn on/off the fade-in effect
-    fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
-    dateFormat                   = "2 Jan, 2006"
-    email                        = "support@attomus.com"   # E-mail address for contact section
-    # customCSS                    = ["foo.css"]             # Include custom css files placed under assets/
-
-    # Configure the home page
-    [params.home]
-        introHeight              = "fullheight"            # Input either "medium" or "large" or "fullheight"
-        showLatest               = true                    # Show latest blog post summary
-        showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
-        numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
-
-        localTime                = true                    # Show your current local time in contact section
-        timeZone                 = "Europe/London"         # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-        timeFormat               = "hh:mm A"                # https://momentjs.com/docs/#/displaying/format/
-    [params.projects]
-        useTwoColumns            = false                   # Use a layout with two columns instead of three
-
-    # Share buttons on blog post pages
-    [params.share]
-        twitter                  = true
-        facebook                 = false
-        googlePlus               = false
-        pinterest                = false
-
-[taxonomies]
-  tag = "tags"
-
-[languages]
-    [languages.en]
-        languageName     = "English"
-        languageCode     = "en-us"
-        contentDir       = "content/en"
-        weight           = 0
-        title            = "Tempestas Copper"
-        [languages.en.params]
-            description  = "Tempestas Copper - sustainable mining claims in Arizona"   # Max 160 characters show in search results
-            footerText   = "supported by [attomus](https://attomus.com)"   # Text to override default footer text  (markdown allowed)
-
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jquery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
+[[params.plugins.js]]
+link = "plugins/lazy-load/lozad.min.js"
+[[params.plugins.js]]
+link = "plugins/google-map/map.js"
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
@@ -106,32 +87,69 @@ weight = 7
 
 
 
+############################# Default Parameters ##########################
+[params]
+logo = "images/logo.png?nf_resize=fit&w=100&h=200"
+# Meta data
+description = "Tempestas Copper"
+author = "Attomus"
+# Google Analytics
+google_analytics_id = "" # Your ID
+# post share
+post_share = true
+customCSS  = true
 
-############################# Plugins ##########################
-# css plugins
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
-[[params.plugins.css]]
-link = "plugins/magnific-popup/magnific-popup.css"
-[[params.plugins.css]]
-link = "plugins/slick/slick.css"
-[[params.plugins.css]]
-link = "https://fonts.googleapis.com/css?family=Anaheim|Quattrocento+Sans:400,700&display=swap"
 
-# js plugins
-[[params.plugins.js]]
-link = "plugins/jquery/jquery.min.js"
-[[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-link = "plugins/shuffle/shuffle.min.js"
-[[params.plugins.js]]
-link = "plugins/magnific-popup/jquery.magnific-popup.min.js"
-[[params.plugins.js]]
-link = "plugins/lazy-load/lozad.min.js"
-[[params.plugins.js]]
-link = "plugins/google-map/map.js"
+# preloader
+[params.preloader]
+enable = false
+preloader = "images/tcop-logo.png"
+
+# cookies
+[params.cookies]
+enable = false
+expire_days = 2
+
+# google map
+[params.map]
+enable = false
+gmap_api = "https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"
+map_latitude = "51.5223477"
+map_longitude = "-0.1622023"
+map_marker = "images/marker.png"
+
+############################# social icons ##########################
+[[params.social]]
+icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "https://twitter.com/AttomusHQ"
+
+[[params.social]]
+icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-linkedin" # themify icon pack : https://themify.me/themify-icons
+link = "https://www.linkedin.com/company/attomushq/"
+
+[[params.social]]
+icon = "ti-dribbble" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+[[params.social]]
+icon = "ti-pinterest" # themify icon pack : https://themify.me/themify-icons
+link = "#"
+
+
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
+weight = 1
+home = "Home"
+copyright = "Copyright &copy; 2021 Tempestas Copper Inc.; developed by [Attomus](https://attomus.com)"
+
