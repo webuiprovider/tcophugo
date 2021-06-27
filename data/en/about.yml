@@ -2,15 +2,35 @@
 about:
   enable : true
   title : About Us
+  image: /images/SWC-Zelleweg-Claim-w-Mine-Shaft-in-Background.jpg
   about_item :
   - icon : ti-ruler-pencil # themify icon pack : https://themify.me/themify-icons
-    title : We're Creative
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    title : History
+    weight: 3
+    content : The Kelvin Copper Deposit was founded in 1897. The Johnson family undertook the stewardship
+      of the mine when Mr. Arnold H. Johnson purchased the property that included the Zellweger mine
+      in 1932.
+
+
+      During his life the astute geologist and devoted father progressed the development of the mine
+      and ensured a steady supply of essential materials instrumental to the United States
+      Government's welcomed support to the Allied forces in World War II before leaving his life's work
+      in the trusted hands of his son John Johnson.
+
+
+      In 2020 John Johnson and family welcomed a new partnership with Tempestas Capital, a
+      respected Ethical Investment Fund with interests in renewable energies and green projects.
+
 
   - icon : ti-cup # themify icon pack : https://themify.me/themify-icons
-    title : We're Professional
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    title : Location
+    weight: 1
+    content : Found within the northwest-trending Arizona Copper Belt of south-central Arizona on the historic
+      Copper Basin Railway and within easy access of Phoenix and Tucson; the Johnson family claim
+      covers an area of approximately 640 acres
 
   - icon : ti-thought # themify icon pack : https://themify.me/themify-icons
-    title : We're Genius
-    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    title : Environment
+    weight: 2
+    content : Building on the Johnsons family core values of sustainability and responsibility the mine continues
+      to proudly support the United States in the move towards a greener agenda.

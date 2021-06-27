@@ -4,12 +4,6 @@ portfolio:
   title : Our Works
   portfolio_item :
     # portfolio item loop
-    - name : TOCP image
-      image : images/portfolio/20210302_130827.jpg?nf_resize=fit&w=350&h=263  
-      image_webp : images/portfolio/20210302_130827.jpg?nf_resize=fit&w=350&h=263
-      categories : ["design"]
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      link : "https://themefisher.com"
     - name : Tag Design
       image : images/portfolio/portfolio-1.jpg
       image_webp : images/portfolio/portfolio-1.webp

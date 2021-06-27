@@ -16,10 +16,10 @@
 			</div>
 			{{"<!-- /section title -->" | safeHTML}}
 
-			{{ range .about_item }}
+			{{ range sort   .about_item "weight" }}
 			{{"<!-- About item -->" | safeHTML}}
-			<div class="col-lg-4 text-center wow fadeInUp" data-wow-duration="500ms">
-				<div class="block">
+			<div class="mb-4 {{if eq .title "History"}} col-lg-12 {{else}} col-lg-6 {{end}}  text-center wow fadeInUp" data-wow-duration="500ms">
+				<div class="block h-100">
 					<div class="icon-box">
 						{{with .icon}}<i class="{{ . }}"></i>{{ end }}
 					</div>

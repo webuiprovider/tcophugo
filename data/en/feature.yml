@@ -1,27 +1,29 @@
 ############################# feature ###################################
 feature:
   enable : true
-  image : images/about/about-business-man.jpg
-  image_webp : images/about/about-business-man.webp
-  title : We’re A Digital Design Agency.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
-  feature_item : 
-      # feature item loop
-    - title : SEO Optimized
-      icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+  image : images/NWC-Zelleweger---View-from-Wash.jpg
+  image_webp : images/NWC-Zelleweger---View-from-Wash.jpg
+  title : Why Copper Mining?.
+  content : "As we strive to be more environmentally conscious, the contribution that Copper makes to sustaining and improving society through domestic, industrial and high technology applications has resulted in the global demand for Copper far exceeding its supply."
+  feature_item :
+    # feature item loop
+    - title: Renewable Energy
+      icon: ti-world # themify icon pack : https://themify.me/themify-icons
+      content: An essential input into Solar, Hydro, Thermal and Wind Energy production, Copper is key to the global campaign to reduce CO2 emissions and pollution
+
+    # feature item loop
+    - title : Electric Vehicles
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : The UK & US governments will phase out petrol and diesel cars by 2030 and 2035 respectively and other countries are following suit.
       
       # feature item loop
-    - title : Easy Customization
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+    - title : Recycling
+      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
+      content : Copper is one of the most recycled of all metals; virtually all Copper products can be recycled without losing any of the chemical or physical properties.
 
       # feature item loop
-    - title : SEO Optimized
+    - title : Health
       icon : ti-stats-up # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      content : Copper's antimicrobial qualities are helping in the fight against community-acquired infections, and Copper
+        is an essential mineral for health as recommended by the World Health Organisation.
       
-      # feature item loop
-    - title : Easy Customization
-      icon : ti-announcement # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe

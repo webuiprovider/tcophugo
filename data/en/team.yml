@@ -4,11 +4,11 @@ team:
   title : Our Team
   team_member :
     # team member loop
-    - name : Abul Mal Muhit
+    - name : Arnold H Johnson
       image_webp : images/team/team-1.webp
       image : images/team/team-1.jpg
-      designation : CEO/Founder
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      designation : Discovery
+      content : Arnold purchased the mine in 1932 and discovered 'Black Copper' - rare earth minerals - on site.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
           link : "#"
@@ -20,11 +20,11 @@ team:
           link : "#"
         
     # team member loop
-    - name : Frank Miller
+    - name : John M Johnson
       image_webp : images/team/team-2.webp
       image : images/team/team-2.jpg
-      designation : Manager
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      designation : Owner
+      content : Previously in Mineral Field Ventures LLC, Global Mining Exploration Ventures LLC, Precision Gold LLC, John brings vast experience of the industry.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
           link : "#"
@@ -36,11 +36,11 @@ team:
           link : "#"
         
     # team member loop
-    - name : Michael Jonson
+    - name : Andrew Paul
       image_webp : images/team/team-3.webp
       image : images/team/team-3.jpg
-      designation : Web Developer
-      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
+      designation : CEO
+      content : "An experienced Investment Banker with a strong interest in the management of Ethical Portfolios, Andrew learnt his trade in Goldman Sachs, Morgan Stanley and Nomura. With a knack for spotting emerging trends within global economies Andrew has been delighted at the increasing investor appetite for Environmentally Sustainable Investments. Andrew is the CEO of Tempestas Copper."
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
           link : "#"
@@ -52,10 +52,10 @@ team:
           link : "#"
         
     # team member loop
-    - name : Mo. Kha. Alamgir
+    - name : Andrew Costian
       image_webp : images/team/team-4.webp
       image : images/team/team-4.jpg
-      designation : SEO Specialist
+      designation : COO
       content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur necessitatibus ullam, culpa odio.
       social :
         - icon : ti-facebook # themify icon pack : https://themify.me/themify-icons
