@@ -49,12 +49,6 @@ pre = "#"
 url = "about"
 weight = 1
 
-#[[Languages.en.menu.main]]
-#name = "services"
-#pre = "#"
-#url = "services"
-#weight = 2
-
 [[Languages.en.menu.main]]
 name = "Imagery"
 pre = "#"
@@ -66,18 +60,6 @@ name = "Team"
 pre = "#"
 url = "team"
 weight = 4
-
-#[[Languages.en.menu.main]]
-#name = "pricing"
-#pre = "#"
-#url = "pricing"
-#weight = 5
-
-[[Languages.en.menu.main]]
-name = "Blog"
-pre = "#"
-url = "blog"
-weight = 6
 
 [[Languages.en.menu.main]]
 name = "Contact"
